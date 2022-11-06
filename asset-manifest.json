@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Champagne2453/Devanshi-PF-.git/static/css/main.89383e01.chunk.css",
+    "main.js": "/Champagne2453/Devanshi-PF-.git/static/js/main.e692e5f6.chunk.js",
+    "main.js.map": "/Champagne2453/Devanshi-PF-.git/static/js/main.e692e5f6.chunk.js.map",
+    "runtime-main.js": "/Champagne2453/Devanshi-PF-.git/static/js/runtime-main.d3b10e05.js",
+    "runtime-main.js.map": "/Champagne2453/Devanshi-PF-.git/static/js/runtime-main.d3b10e05.js.map",
+    "static/js/2.098dfc74.chunk.js": "/Champagne2453/Devanshi-PF-.git/static/js/2.098dfc74.chunk.js",
+    "static/js/2.098dfc74.chunk.js.map": "/Champagne2453/Devanshi-PF-.git/static/js/2.098dfc74.chunk.js.map",
+    "index.html": "/Champagne2453/Devanshi-PF-.git/index.html",
+    "static/css/main.89383e01.chunk.css.map": "/Champagne2453/Devanshi-PF-.git/static/css/main.89383e01.chunk.css.map",
+    "static/js/2.098dfc74.chunk.js.LICENSE.txt": "/Champagne2453/Devanshi-PF-.git/static/js/2.098dfc74.chunk.js.LICENSE.txt",
+    "static/media/card.55210662.jpeg": "/Champagne2453/Devanshi-PF-.git/static/media/card.55210662.jpeg",
+    "static/media/me2.501e604d.jpg": "/Champagne2453/Devanshi-PF-.git/static/media/me2.501e604d.jpg",
+    "static/media/web1.0930b668.png": "/Champagne2453/Devanshi-PF-.git/static/media/web1.0930b668.png",
+    "static/media/web2.b70a9337.png": "/Champagne2453/Devanshi-PF-.git/static/media/web2.b70a9337.png",
+    "static/media/web3.b579dff1.png": "/Champagne2453/Devanshi-PF-.git/static/media/web3.b579dff1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3b10e05.js",
+    "static/js/2.098dfc74.chunk.js",
+    "static/css/main.89383e01.chunk.css",
+    "static/js/main.e692e5f6.chunk.js"
+  ]
+}
