@@ -1,0 +1,151 @@
+.c{
+    height: 100vh;
+}
+.c-bg{
+    width: 40px;
+    height: 100%;
+    background: rgb(236,164,180);
+background: linear-gradient(0deg, rgba(236,164,180,1) 9%, rgba(184,158,210,1) 47%, rgba(241,161,127,1) 85%);
+position: absolute;
+}
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+    height: 85vh;
+    
+   
+  }
+  .c-left {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .c-right {
+    flex: 1;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .c-title {
+    padding: 10px;
+    font-size: 60px;
+    width: 80%;
+    
+    
+  }
+  .c-t2{
+    
+
+    padding: 10px;
+    font-size: 40;
+    width: 80%;
+    
+  }
+  .c-social{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+  }
+  
+  .c-item{
+    padding: 0 8px;
+   height: 75px;
+   width: 75px;
+   transition: transform .2s;
+  }
+  .c-item:hover{
+    transform: scale(1.4); 
+}
+.c-desc{
+    font-weight: 200;
+    
+}
+
+form{
+    margin-top: 20px;
+}
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+
+}
+button {
+    border: none;
+    padding: 15px;
+    background: rgb(241,161,127);
+    background: linear-gradient(90deg, rgba(241,161,127,1) 14%, rgba(184,158,210,1) 40%, rgba(236,164,210,1) 89%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .c-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+    .c-left{
+      height: 30%;
+      flex:1;
+    }
+    .c-right{
+      height: 50%;
+      flex: 2;
+
+    }
+  
+    .c-title {
+      font-size: 30px;
+    }
+  
+    .c-social{
+      display: flex;
+      flex-direction: row;
+    }
+    .c-item{
+      padding: 0 2px;
+   height: 15px;
+   width: 15px;
+
+    }
+  
+    .c-desc {
+      display: none;
+    }
+  
+    form {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    input {
+      width: 35%;
+      height: 40px;
+      margin: 10px;
+      margin-left: 0;
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  }
